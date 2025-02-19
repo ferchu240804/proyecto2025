@@ -1,0 +1,1 @@
+document.write("tu saldo es 20.000")
