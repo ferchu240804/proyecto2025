@@ -1,5 +1,5 @@
 // Definir saldo inicial y cargarlo desde localStorage si existe
-let saldo = localStorage.getItem("saldo") ? parseInt(localStorage.getItem("saldo")) : 500000;
+let saldo = localStorage.getItem("saldo") ? parseInt(localStorage.getItem("saldo")) : 500.000;
 
 // Obtener los parámetros de la URL
 const params = new URLSearchParams(window.location.search);
